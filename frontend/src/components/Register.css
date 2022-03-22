@@ -1,0 +1,125 @@
+.left_register{
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+/* .title{
+    position: absolute;
+    left: 10%;
+    top: 11%;
+}
+
+.title p{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.title p span{
+    font-size: 5rem;
+}
+
+.safe{
+    position: absolute;
+    top: 12%;
+    left: 55%;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.secure{
+    position: absolute;
+    top: 18%;
+    left: 55%;
+    font-size: 2.5rem;
+    font-weight: bold;
+} */
+
+.thought{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+
+.thought p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin:2% 0;
+    font-weight: 500;
+}
+
+.thought .linezero{
+    margin-left: 40%;
+}
+
+.thought .line2{
+    margin-left: 3%;
+}
+
+.thought .line3{
+    margin-left: 36%;
+}
+
+.thought p span,.thought .line3{
+    font-size: 2.5rem;
+}
+
+.form{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(236, 240, 11);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_register h1{
+    margin: 0 0 10% 15%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    text-shadow: 3px 3px 2px white;
+    letter-spacing: 2.5px;
+}
+
+.inputbox{
+    position: relative;
+}
+
+.inputbox input{
+    width: 100%;
+    padding: 6px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(148, 137, 137);
+    outline: none;
+    background: transparent;
+    z-index: 10;
+}
+
+.inputbox input:focus{
+    border-bottom: 2px solid black;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    transition: 0.5s;
+    font-weight: bold;
+    color: rgb(128, 117, 117);
+}
+
+.inputbox input:focus ~ label,
+.inputbox input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: black;
+    font-size: 12px;
+}
